@@ -31,7 +31,7 @@ def load_data(excel_file: str):
     return df_invoices, df_payments
 
 # Adjust path to your local file
-EXCEL_FILE_PATH = r"D:\Python Project\SVP Sample data with Payments.xlsx"
+EXCEL_FILE_PATH = r"exceldata/SVP Sample data with Payments.xlsx"
 df_invoices, df_payments = load_data(EXCEL_FILE_PATH)
 
 # For global date filters
